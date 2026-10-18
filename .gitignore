@@ -1,0 +1,14 @@
+# ---- Python 运行产物 ----
+__pycache__/
+*.py[cod]
+
+# ---- Spike 可再生产物（按需保留，默认忽略新产物） ----
+# spikes/spike2/out/ 中既有演示产物已入库；后续新生成文件不入库
+# 如需全部忽略可取消下行注释
+# spikes/spike2/out/
+
+# ---- 编辑器/系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
